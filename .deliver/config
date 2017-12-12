@@ -1,6 +1,6 @@
 APP="nojs"
 
-BUILD_HOST="127.0.0.1"
+BUILD_HOST="nojs"
 BUILD_USER="engineering"
 BUILD_AT="tmp/edeliver/$APP/builds"
 
@@ -8,7 +8,7 @@ RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
 
 GIT_CLEAN_PATHS="_build rel priv/static"
 
-PRODUCTION_HOSTS="127.0.0.1"
+PRODUCTION_HOSTS="nojs"
 PRODUCTION_USER="engineering"
 DELIVER_TO="/home/engineering"
 
