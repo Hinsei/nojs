@@ -1,0 +1,14 @@
+<h2>My List</h2>
+<p id="info_flash" class="alert alert-info"></p>
+
+<form>
+  <input name="new_todo">
+  <button drab-click="add">Add</button>
+</form>
+
+
+<%= if !Enum.empty?(@todos) do %>
+  <%= for todo <- @todos do %>
+    <p><%= todo %></p>
+  <% end %>
+<% end %>
