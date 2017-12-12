@@ -2,7 +2,7 @@ APP="nojs"
 
 BUILD_HOST="nojs"
 BUILD_USER="engineering"
-BUILD_AT="tmp/edeliver/$APP/builds"
+BUILD_AT="/tmp/edeliver/$APP/builds"
 
 RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
 
