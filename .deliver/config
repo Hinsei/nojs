@@ -6,7 +6,7 @@ BUILD_AT="/tmp/edeliver/$APP/builds"
 
 RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
 
-STAGING_HOST="nojs"
+STAGING_HOSTS="nojs"
 STAGING_USER="engineering"
 DELIVER_TO="/home/engineering"
 
