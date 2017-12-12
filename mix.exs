@@ -43,7 +43,7 @@ defmodule Nojs.Mixfile do
       {:cowboy, "~> 1.0"},
       {:drab, "~> 0.6"},
       {:edeliver, "~> 1.4.4"},
-      {:distillery, "~> 1.5.2"}
+      {:distillery, "~> 1.5.2", warn_missing: false}
     ]
   end
 
