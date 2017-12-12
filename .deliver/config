@@ -35,6 +35,7 @@ pre_erlang_clean_compile() {
 
     ./node_modules/brunch/bin/brunch build --production 
 
+    cd ..
     # run your custom task
     APP='$APP' MIX_ENV='$TARGET_MIX_ENV' $MIX_CMD phx.digest $SILENCE
   "
