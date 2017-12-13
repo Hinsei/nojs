@@ -6,10 +6,14 @@ BUILD_AT="tmp/edeliver/$APP/builds"
 
 RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
 
+STAGING_HOSTS='$BUILD_HOST'
+STAGING_USER='$BUILD_USER'
+TEST_AT="/engineering/nojs'
+
 GIT_CLEAN_PATHS="_build rel priv/static"
 
-PRODUCTION_HOSTS="nojs"
-PRODUCTION_USER="engineering"
+PRODUCTION_HOSTS='$BUILD_HOST'
+PRODUCTION_USER='$BUILD_USER'
 DELIVER_TO="/home/engineering"
 
 pre_erlang_get_and_update_deps() {
