@@ -18,9 +18,7 @@ config :nojs, NojsWeb.Endpoint,
   http: [port: 4000],
   url: [host: "example.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json",
-  server: true,
-  root: ".",
-  version: Application.spec(:nojs, :vsn)
+  server: true
 
 # Do not print debug messages in production
 config :logger, level: :info
